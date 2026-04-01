@@ -1,0 +1,26 @@
+name: safeview_mobile
+description: SafeView Mobile - Phase 2 AI Content Moderation
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.10.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.0.5
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # If you add assets like a logo later, uncomment the lines below:
+  # assets:
+  #   - assets/images/logo.png

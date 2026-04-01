@@ -1,0 +1,4 @@
+.safeview-blur {
+  filter: blur(20px) !important;
+  transition: filter 0.2s ease-in-out;
+}
